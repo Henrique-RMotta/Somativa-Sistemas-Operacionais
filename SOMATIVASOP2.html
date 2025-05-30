@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somativa Parte 2 Teórica</title>
+    <style>
+        ul {
+            margin-left: 24px;
+            margin-bottom: 18px;
+            padding-left: 18px;
+            background: #f9f9fc;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(44,62,80,0.04);
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 6px 0 6px 6px;
+            border-left: 3px solid #e67e22;
+            background: #fff;
+            border-radius: 3px;
+            color: #2c3e50;
+        }
+        img {
+            display: block;
+            max-width: 90%;
+            margin: 18px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+            border: 1px solid #e0e0e0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #fff;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 6px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 18px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>1. Definindo os Paradigmas: Código Aberto vs Fechado</h2>
+        <p>O sistema operacional de código aberto é um sistema com o código fonte aberto a todos, ou seja, qualquer um pode ver, modificar e distribuir o código. As suas vantagens são:</p>
+        <ul>
+            <li>É um sistema gratuito, diferentemente do Windows por exemplo;</li>
+            <li>São sistemas mais personalizáveis.</li>
+        </ul>
+        <p>Suas desvantagens são:</p>
+        <ul>
+            <li>Requer maior conhecimento técnico para fazer manutenção e modificações;</li>
+            <li>Menos suporte oficial, por ser um software aberto muitas vezes eles podem ser desenvolvidos por uma comunidade de programadores, assim o suporte fica mais difícil por não haver uma empresa oficial por trás.</li>
+        </ul>
+        <h2>2. Análise Comparativa de Instalação</h2>
+        <p>As diferenças no processo de instalação estão no licenciamento, personalização e instalação de drivers. No licenciamento o Windows exige que o usuário adquira uma licença, por meio de uma chave de ativação a ser inserida na instalação do sistema. Já no Ubuntu, por ser de código aberto ele não precisa de uma licença.Em relação à personalização na instalação do Windows ele é mais simples e direto ao ponto, porém no Ubuntu, por exemplo, ele permite mais personalizações na instalação,como na parte das partições e na escolha de instalar softwares opcionais, mas ,como já dito, pode exigir maior conhecimento técnico. Por fim nos drivers o Windows consegur buscar mais facilmente os drivers sozinho e instalá-los automaticamente, diferentemente no Linux que pode precisar instalar eles mais manualmente, mas ambos já possuem drives embutidos, ou conseguem identifica-los.  </p>
+        
+        <h2>3.Debate: Modo Texto vs. Interface Gráfica</h2>
+        <p>
+        A linha de comando possui maior controle, velocidade e flexibilidade para usuários mais experientes. Com ela, é possível automatizar tarefas, acessar funções avançadas do sistema e manipular arquivos de forma mais precisa. Por exemplo, instalar pacotes, configurar servidores ou realizar scripts complexos são tarefas muito mais rápidas no terminal do que em uma interface. Além disso, a linha de comando consome menos recursos do sistema.Por outro lado, essa abordagem precisa de mais conhecimento técnico, pois exige memorização de comandos e maior familiaridade com o sistema. Um pequeno erro de digitação pode causar falhas ou perdas de dados.Já a interface gráfica (GUI) é mais acessível e intuitiva, sendo ideal para usuários comuns e tarefas visuais, como edição de imagens, navegação na internet ou gerenciamento básico de arquivos. A GUI facilita o uso de ferramentas por meio de botões, janelas e menus, o que reduz erros e acelera o aprendizado inicial. No entanto, nem sempre oferece o mesmo nível de controle ou velocidade.Em termos de aplicabilidade, a linha de comando é mais apropriada em ambientes profissionais e técnicos, como servidores Linux, desenvolvimento de software e manutenção de sistemas. Já a GUI se destaca em situações do dia a dia, como o uso doméstico ou por usuários que não têm conhecimento técnico avançado.</p>
+
+        <h2>4. Estruturas de Diretórios: Uma Análise Comparativa</h2>
+        <p>Os sistemas operacionais Windows e Linux possuem estruturas de diretórios bastante diferentes, refletindo suas filosofias e formas de organização. O Windows utiliza uma estrutura baseada em letras de unidades, sendo a principal o C:\, onde normalmente o sistema é instalado. Já o Linux segue uma hierarquia de diretórios única, com uma raiz representada por /, de onde todos os demais diretórios se ramificam.No Windows, três diretórios se destacam por sua importância. O primeiro é o C:\Windows, onde estão os arquivos essenciais do sistema operacional, como bibliotecas, arquivos de configuração e componentes internos. Em seguida, temos o C:\Program Files, que é o local padrão para a instalação de programas. Em sistemas de 64 bits, existe também a pasta C:\Program Files (x86) para softwares de 32 bits. Por fim, o diretório C:\Users guarda os dados pessoais de cada usuário, como documentos, configurações, área de trabalho e downloads.No caso do Linux, a estrutura é mais padronizada entre as distribuições e segue o modelo conhecido como Filesystem Hierarchy Standard (FHS). O diretório /bin contém os comandos básicos e essenciais que todos os usuários podem utilizar, como ls, cp e rm. O /etc é responsável por armazenar os arquivos de configuração do sistema e dos programas, funcionando como um centro de controle. Já o /home é equivalente ao C:\Users, pois guarda os diretórios pessoais dos usuários, com seus documentos e arquivos.Enquanto o Windows organiza seus arquivos em diferentes unidades e pastas voltadas principalmente para o uso pessoal e empresarial, o Linux adota uma abordagem mais técnica e unificada, ideal para administração e personalização do sistema. </p>
+        <h2>5. Modelos de Usuários e Permissões</h2>
+        <p>
+        O gerenciamento de usuários e permissões é um componente fundamental nos sistemas operacionais. Ele serve para controlar quem pode acessar, modificar ou executar arquivos, pastas e recursos do sistema, garantindo a segurança e a organização, especialmente em computadores com múltiplos usuários. Esse controle é feito através de contas de usuário, grupos e permissões atribuídas a cada recurso do sistema.No Windows, que é um sistema de código fechado, as permissões são gerenciadas pelo sistema de arquivos NTFS (New Technology File System). Nesse modelo, cada arquivo ou pasta possui uma lista de controle de acesso (ACL), onde são definidas as permissões específicas para usuários ou grupos. As permissões podem incluir leitura, gravação, modificação, execução e controle total. A configuração é feita de forma gráfica, facilitando o uso por pessoas com menos conhecimento técnico. É possível, por exemplo, definir que um determinado usuário pode apenas visualizar um arquivo, enquanto outro pode editá-lo ou excluí-lo.Já no Linux, que é um sistema de código aberto, o gerenciamento de permissões é baseado em um modelo simples e direto com três tipos de acesso: leitura (r), escrita (w) e execução (x). As permissões são aplicadas em três níveis: usuário (dono do arquivo), grupo (ao qual o dono pertence) e outros (todos os demais usuários). Essa estrutura é facilmente visualizada no terminal com o comando ls -l, e modificada com comandos como chmod (alterar permissões), chown (mudar o dono) e chgrp (mudar o grupo). Por exemplo, um arquivo com permissões -rwxr-xr-- indica que o dono pode ler, escrever e executar; o grupo pode ler e executar; e os outros apenas ler.
+        </p>
+        <h2>6.O Processo de Boot: Do Power-On ao Desktop</h2>
+        <p>
+        O processo de inicialização (boot) de um computador é o conjunto de etapas que ocorrem desde o momento em que o equipamento é ligado até que o sistema operacional esteja completamente carregado e pronto para uso. Esse processo é essencial para preparar o hardware e permitir que o software funcione corretamente.
+        A primeira etapa ocorre quando o usuário aperta o botão de ligar. O hardware é ativado e o computador executa o POST (Power-On Self Test), um teste rápido que verifica se os componentes principais, como memória RAM, processador, teclado e dispositivos de vídeo, estão funcionando corretamente. Caso tudo esteja em ordem, o controle passa para o firmware, que pode ser o BIOS (em sistemas mais antigos) ou o UEFI (nos mais modernos). O BIOS/UEFI então localiza e carrega o bootloader, um pequeno programa responsável por iniciar o sistema operacional.O bootloader (como o GRUB no Linux ou o Windows Boot Manager no Windows) tem a função de carregar o núcleo (kernel) do sistema operacional na memória. A partir daí, o kernel assume o controle do sistema, inicializando os drivers, reconhecendo dispositivos conectados e ativando serviços essenciais. Por fim, é carregada a interface gráfica (GUI), que apresenta ao usuário a área de trabalho ou tela de login, permitindo a interação com o sistema.Embora as etapas gerais do processo de boot sejam semelhantes entre sistemas de código aberto (como o Linux) e código fechado (como o Windows), existem algumas diferenças notáveis. Em sistemas Linux, por exemplo, é comum que o GRUB permita escolher entre diferentes sistemas operacionais ou modos de inicialização. Além disso, o Linux é altamente configurável, permitindo que o usuário personalize quase todas as fases do boot. Já no Windows, o processo é mais padronizado e menos acessível para modificações avançadas, justamente por ser um sistema fechado com foco em simplicidade e estabilidade para o usuário final.
+        </p>
+        <h2>7. Redes: Compartilhamento, Mapeamento, deve ser criado um exemplo.</h2>
+        <p><ul>
+            <li>A -Unidades e pastas em rede são recursos armazenados em um computador ou servidor que podem ser acessados por outros dispositivos conectados à mesma rede. Em vez de manter arquivos e documentos apenas no computador local, eles são disponibilizados para uso compartilhado. Por exemplo, uma pasta com documentos pode ser armazenada em um servidor e acessada por todos os funcionários de uma empresa.A principal utilidade dessas unidades e pastas em rede é facilitar o compartilhamento de arquivos e o trabalho colaborativo. Elas permitem centralizar informações importantes, reduzir a duplicação de arquivos, fazer backups com mais facilidade e organizar o fluxo de trabalho entre diferentes usuários da rede.</li>
+            <li>B - No contexto de redes, compartilhamento significa tornar arquivos, pastas, impressoras ou outras unidades disponíveis para outros usuários ou dispositivos na mesma rede. Isso é feito com a intenção de permitir colaboração e o uso comum de recursos, sem a necessidade de copiar arquivos manualmente de um computador para outro.Já o acesso se refere à permissão que cada usuário tem ao utilizar esses recursos compartilhados. Pode ser acesso de leitura (apenas visualizar), gravação (modificar ou adicionar arquivos), ou total (ler, escrever, excluir, modificar permissões). O acesso é geralmente controlado pelo sistema operacional por meio de permissões específicas para cada usuário ou grupo.</li>
+            <li>C - Mapeamento de unidades de rede é o processo de atribuir uma letra de unidade (como “Z:” ou “G:”) a uma pasta ou recurso compartilhado na rede, de forma que o usuário possa acessá-lo facilmente como se fosse uma pasta local em seu computador. Esse mapeamento permite que o recurso de rede apareça no Explorador de Arquivos do Windows, por exemplo, facilitando o uso frequente de pastas compartilhadas.Esse recurso é muito útil em ambientes corporativos, onde os usuários precisam acessar pastas específicas do servidor todos os dias. Ao mapear uma unidade de rede, o usuário não precisa digitar o caminho da rede manualmente toda vez — o acesso se torna rápido e prático.</li>
+        </ul>
+        <img src="tarefa pt 2 7.1.png" >
+        <img src="tarefa pt 2 7.2.png" >
+        <img src="tarefa pt 2 7.4.png" >
+        <img src="tarefa pt 2 7.3.png" >
+    </p>
+    <h2>8. Fundamentos de Segurança Cibernética</h2>
+    <ul>
+        <li>
+        Segurança Cibernética é o conjunto de práticas, tecnologias e processos utilizados para proteger sistemas, redes, programas e dados digitais contra ataques, danos ou acessos não autorizados. Seu principal objetivo é garantir a confidencialidade, integridade e disponibilidade das informações, prevenindo ameaças que possam comprometer a operação e a segurança de empresas, governos ou usuários comuns.
+
+</li>
+        <li>Malware: Software malicioso como vírus, worms, trojans e ransomwares que infectam sistemas para roubar dados, danificar arquivos ou sequestrar informações.Phishing: Tentativa de enganar o usuário para obter informações confidenciais, como senhas e dados bancários, geralmente por meio de e-mails ou sites falsos que imitam páginas legítimas.Ataques de força bruta: Método de tentativa e erro para descobrir senhas, testando várias combinações até encontrar a correta.Ransomware: Tipo de malware que sequestra dados do usuário, criptografando-os e exigindo o pagamento de um resgate para liberar o acesso.Ataques de negação de serviço (DDoS): Consistem em sobrecarregar um servidor ou rede com tráfego falso, tornando-o inacessível para os usuários legítimos.
+
+</li>
+        <li>Vulnerabilidades são falhas ou brechas em softwares, sistemas operacionais ou redes que podem ser exploradas por cibercriminosos para invadir ou danificar um sistema. Elas podem ser causadas por erros de programação, configurações incorretas ou falhas de segurança ainda não corrigidas (chamadas de “zero-day”).
+
+</li>
+        <li>Credenciais são informações usadas para autenticar um usuário em um sistema, como nome de usuário, senha, PIN, ou até biometria. Elas são fundamentais para garantir que apenas pessoas autorizadas acessem determinadas informações ou serviços. Se as credenciais forem roubadas ou vazadas, um invasor pode ter acesso a contas bancárias, redes corporativas ou dados pessoais, o que pode causar prejuízos financeiros e danos à privacidade.
+    
+</li>
+        <li>Engenharia Social é uma técnica usada por cibercriminosos para manipular pessoas e levá-las a divulgar informações confidenciais, como senhas ou dados bancários. Em vez de atacar diretamente sistemas tecnológicos, esses golpes exploram o fator humano.
+        <ol>
+            <li>
+            Ligação falsa do “suporte técnico”: O criminoso liga fingindo ser de uma empresa conhecida e pede que o usuário forneça senhas para “verificar um problema”.
+            </li>
+            <li>
+            Mensagem falsa de prêmio: O usuário recebe um e-mail ou mensagem dizendo que ganhou um prêmio, mas precisa clicar em um link ou fornecer dados pessoais para receber.
+            </li>
+        </ol>
+</li>
+    </ul>
+    <h2>9. Fundamentos de Segurança Cibernética</h2>
+    <p>Para aumentar a segurança de um sistema operacional e proteger os dados, usuários e administradores devem adotar algumas medidas básicas. Manter o sistema e os programas atualizados, usar antivírus, controlar o acesso com senhas fortes e autenticação, fazer backups regulares e aplicar criptografia são ações essenciais. Também é importante monitorar o sistema e educar os usuários sobre riscos e boas práticas.O firewall nativo do sistema operacional funciona como uma barreira que controla o tráfego de rede, bloqueando acessos não autorizados e protegendo contra ataques externos. Ele filtra dados que entram e saem do computador, ajudando a manter o ambiente seguro.
+
+</p>
+ <h2>10. Configuração do Sistema: Pontos Críticos</h2>
+    <p>Para otimizar o desempenho, a segurança e a usabilidade de um sistema operacional — seja ele aberto (como Linux) ou fechado (como Windows) — é fundamental que administradores e usuários avançados conheçam e gerenciem algumas áreas críticas de configuração:</p>
+    <ol>
+    <li>
+        Configurar corretamente usuários, grupos e permissões de acesso é essencial para garantir a segurança e controlar quem pode acessar ou modificar arquivos e recursos do sistema.
+    </li>
+    <li>
+        Ajustar parâmetros de rede, como endereçamento IP, firewall, DNS e políticas de acesso, é fundamental para proteger o sistema contra ataques externos e garantir comunicação eficiente.
+    </li>
+    <li>
+        Gerenciar quais serviços e processos iniciam automaticamente no sistema permite otimizar o desempenho, liberando recursos e evitando vulnerabilidades causadas por serviços desnecessários.
+    </li>
+    <li>
+        Manter o sistema e seus aplicativos atualizados previne falhas de segurança e melhora a estabilidade do sistema.
+    </li>
+    <li>
+        Definir políticas e ferramentas para backup automático e pontos de restauração assegura que dados importantes possam ser recuperados em caso de falhas ou ataques.
+    </li>
+    </ol>
+    </div>
+</body>
+</html>
